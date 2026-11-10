@@ -1,0 +1,8 @@
+{
+  "title": "CoPRes: common, proper and residual components (LODE)",
+  "upload_type": "software",
+  "description": "R and Python implementations of LODE (labelled orthogonal decomposition of a space by several positive semi-definite matrices) and of the CoPRes factorisation for multiblock and multigroup data.",
+  "creators": [{"name": "Hanafi, Mohamed", "affiliation": "StatSC, Oniris-INRAE, Nantes, France"}],
+  "license": "GPL-3.0-or-later",
+  "keywords": ["multiblock data analysis", "multigroup data analysis", "common and distinctive components", "labelled orthogonal decomposition"]
+}

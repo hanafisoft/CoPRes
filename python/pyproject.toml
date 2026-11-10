@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CoPRes"
+version = "0.4.0"
+description = "Composantes communes, propres et résiduelles (CoPRes) et décomposition orthogonale étiquetée (LODE) de matrices semi-définies positives"
+authors = [{name = "Mohamed Hanafi", email = "mohamed.hanafi@oniris-nantes.fr"}]
+license = {text = "GPL-3.0-or-later"}
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.21"]
+
+[project.optional-dependencies]
+graphiques = ["matplotlib>=3.5"]
+tests = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+CoPRes = ["donnees/*.csv"]
+
+[tool.pytest.ini_options]
+markers = ["lent: tests longs (une minute environ)"]

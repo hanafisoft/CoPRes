@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce logiciel, merci de le citer comme suit."
+title: "CoPRes : composantes communes, propres et résiduelles (LODE)"
+type: software
+version: 0.4.0
+date-released: 2026-11-10
+license: GPL-3.0-or-later
+repository-code: "https://github.com/hanafisoft/CoPRes"
+authors:
+  - family-names: Hanafi
+    given-names: Mohamed
+    affiliation: "StatSC, Oniris-INRAE, Nantes, France"
+    email: mohamed.hanafi@oniris-nantes.fr
+keywords:
+  - multiblock data analysis
+  - multigroup data analysis
+  - common and distinctive components
+  - labelled orthogonal decomposition
