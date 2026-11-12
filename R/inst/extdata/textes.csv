@@ -1,0 +1,33 @@
+cle;fr;en
+salience;salience;salience
+seuil;seuil;threshold
+porteur_commune;porteur, commune ou partagée;carrier, common or shared
+porteur_propre;porteur, propre;carrier, proper
+non_porteur;non porteur;non-carrier
+residuelle;résiduelle;residual
+ellipse_titre;Ellipse du bloc (trait plein) et cercle-seuil (tirets);Block ellipse (solid) and threshold circle (dashed)
+porte_tout;porte tout le plan;carries the whole plane
+porte_rien;ne porte pas le plan;does not carry the plane
+porte_partie;porte une partie du plan;carries part of the plane
+principale_commune;principale, commune ou partagée;main, common or shared
+principale_propre;principale, propre;main, proper
+melange;mélange;mixing
+part_composante;part de la composante;share of the component
+melangee;mélangée;mixed
+diluee;diluée;diluted
+dim;dim.;dim.
+loading;loading;loading
+contribution;contribution (carré du loading);contribution (squared loading)
+signe;bleu : positif, orange : négatif;blue: positive, orange: negative
+stab_axe;échantillons où la partie est retrouvée (%);samples in which the part is recovered (%)
+stab_titre;{nb} échantillons ; motif complet retrouvé : {p} %;{nb} samples; full pattern recovered: {p}%
+critere;critère;criterion
+strict;strict;strict
+etiquette;étiquette;label
+type;type;type
+sens_titre;bleu : motif différent de celui du seuil de référence;blue: pattern differs from that of the reference threshold
+seuil_facteur;seuil × {f};threshold × {f}
+bilan;bilan Φ;criterion Φ
+lecture_directe;lecture directe;direct reading
+copres;CoPRes;CoPRes
+borne;borne de Ky Fan;Ky Fan bound

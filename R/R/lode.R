@@ -268,7 +268,7 @@ lode <- function(A, theta, departs = 20, graine = 1, depart_propre = FALSE, eps 
                  ecart_relatif = if (eta > 0) 1 - phi / eta else 0, marge = m,
                  criteres_departs = crits,
                  departs_au_meilleur = sum(crits >= crits[i] - tol_meilleur * max(1, abs(crits[i]))),
-                 converge = all(vapply(res, function(r) r$converge, TRUE))),
+                 converge = all(vapply(res, function(r) r$converge, TRUE)), matrices = A),
             class = "lode")
 }
 

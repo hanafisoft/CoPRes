@@ -296,6 +296,7 @@ class ResultatLODE:
     criteres_departs: list = field(default_factory=list)
     departs_au_meilleur: int = 0
     converge: bool = True
+    matrices: list = field(default_factory=list)   # les matrices A_k analysées
 
     def __repr__(self):
         return (f"Étiquetage LODE : motif {texte_motif(self.motif)}\n"
@@ -334,4 +335,4 @@ def lode(A, theta, departs=20, graine=1, depart_propre=False, eps=EPS, maxit=30,
                         motif=motif(etiq), critere=phi, borne=eta,
                         ecart_relatif=(1 - phi / eta) if eta > 0 else 0.0, marge=m,
                         criteres_departs=crits, departs_au_meilleur=au_meilleur,
-                        converge=all(r[3] for r in res))
+                        converge=all(r[3] for r in res), matrices=A)

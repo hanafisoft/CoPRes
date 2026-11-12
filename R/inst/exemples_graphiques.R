@@ -1,0 +1,18 @@
+# Démonstration des graphiques de CoPRes 0.5.0 (R, ggplot2) sur les notes d'élèves.
+# Dans RStudio : source(system.file("exemples_graphiques.R", package = "CoPRes"))
+library(CoPRes)
+library(ggplot2)
+langue("fr")                                   # ou langue("en")
+nt <- lire_notes(1)
+P <- pretraiter_groupes(nt$X, nt$groupes)
+cop <- copres_groupes(P, seuils_groupes(P, graine = 7), departs = 50)
+print(cop)
+print(graph_saliences(cop))
+print(graph_motif(cop))
+for (p in graph_scores_parties(cop, prep = P)) print(p)
+print(graph_loadings(cop, noms_variables = nt$variables))
+print(graph_contributions(cop, composante = 3, noms_variables = nt$variables))
+print(graph_stabilite(stabilite_groupes(cop, P, B = 30)))
+langue("en"); print(graph_saliences(cop)); langue("fr")
+# Données d'une figure, pour la refaire autrement :
+head(donnees_saliences(cop))

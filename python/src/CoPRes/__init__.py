@@ -9,9 +9,14 @@ from .lode import (saliences, etiquettes, motif, texte_motif, nom_etiquette, cri
                    critere_etiquetage, marge, est_etiquetage, borne_kf, ideal, concentration,
                    base_concentree, taro, b2bl, lode, ResultatLODE)
 
-__version__ = "0.4.0"
+__version__ = "0.5.0"
 from .multibloc import (pretraiter, seuils_perm, cpca, acom, accps, METHODES, lecture_directe,
                         copres, fiche, proximite, equivalence, sensibilite, LectureDirecte, FactorisationCoPRes, Fiche)
 from .multigroupe import (lire_notes, pretraiter_groupes, seuils_groupes, copres_groupes, cpc,
                           lecture_groupes, discrimination, PrepGroupes, FactorisationGroupes, LectureGroupes)
 from .stabilite import stabilite_groupes, stabilite_blocs, type_etiquette, Stabilite
+from .graphiques import (langue, theme, theme_copres, donnees_saliences, donnees_coherence, donnees_fiche, donnees_motif,
+                         donnees_scores, donnees_loadings, donnees_contributions, donnees_stabilite,
+                         donnees_sensibilite, donnees_bilan, graph_saliences, graph_coherence, graph_fiche,
+                         graph_motif, graph_scores, graph_scores_parties, graph_loadings, graph_contributions,
+                         graph_stabilite, graph_sensibilite, graph_bilan)

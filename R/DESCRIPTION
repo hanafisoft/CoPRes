@@ -1,17 +1,18 @@
 Package: CoPRes
 Type: Package
 Title: Common, Proper and Residual Components (CoPRes) and Labelled Orthogonal Decomposition (LODE)
-Version: 0.4.0
-Date: 2026-11-10
+Version: 0.5.0
+Date: 2026-11-11
 Authors@R: person("Mohamed", "Hanafi", role = c("aut", "cre"), email = "mohamed.hanafi@oniris-nantes.fr")
 Description: Labelled orthogonal decomposition (LODE) of a space by several positive semi-definite
     matrices: common, proper and residual subspaces, Ky Fan bound, ideal labelling, and the LODE
     algorithm (target rotation TARO and labelling-basis construction B2BL); CoPRes factorisation of
     multiblock methods (CPCA, ACOM, ACCPS) with permutation thresholds, direct reading, mixing and
     dilution sheet, equivalence and sensitivity. Multigroup layer: covariance labelling,
-    permutation thresholds within groups, common principal components, discrimination; bootstrap stability of the labelling. Results match the Python version through a shared Park-Miller generator.
+    permutation thresholds within groups, common principal components, discrimination; bootstrap stability of the labelling;
+    graphics in French or English (ggplot2). Results match the Python version through a shared Park-Miller generator.
 License: GPL (>= 3)
 Encoding: UTF-8
 Imports: stats, utils
-Suggests: testthat (>= 3.0.0)
+Suggests: testthat (>= 3.0.0), ggplot2 (>= 3.4.0)
 Config/testthat/edition: 3
