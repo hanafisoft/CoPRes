@@ -1,5 +1,9 @@
 # Nouveautés de CoPRes
 
+## 0.6.0 (12 novembre 2026)
+- Méthodes concurrentes, pour comparer CoPRes à JIVE et à AJIVE sur les mêmes données : `jive` (selon r.jive 2.4 : rangs donnés ou estimés par permutation), `ajive` (selon mvlearn 0.5 : bornes de Wedin et des directions aléatoires, réexamen des composantes jointes ; option `centrer`, vraie par défaut comme dans mvlearn, pour travailler sans centrage), `rang_coude` (rang de signal par le profil de vraisemblance de Zhu et Ghodsi).
+- Validation : à rangs donnés, `ajive` reproduit mvlearn à 1e-10 près ; `jive` est comparé à r.jive (sorties de référence produites par tests/ref_concurrents/produire_ref_rjive.R). Les tirages aléatoires utilisent le générateur du paquet : mêmes résultats en R et en Python, mais pas les mêmes tirages que r.jive ou mvlearn.
+
 ## 0.5.0 (11 novembre 2026)
 - Graphiques (expérimentaux) : graph_saliences, graph_coherence (argument `bloc` pour un seul panneau), graph_fiche, graph_motif, graph_scores, graph_scores_parties (argument `partie`), graph_loadings (cercle ou spectre), graph_contributions, graph_stabilite, graph_sensibilite, graph_bilan.
 - Données des graphiques (stables) : donnees_saliences, donnees_coherence, donnees_fiche, donnees_motif, donnees_scores, donnees_loadings, donnees_contributions, donnees_stabilite, donnees_sensibilite, donnees_bilan.

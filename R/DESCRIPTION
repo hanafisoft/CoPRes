@@ -1,7 +1,7 @@
 Package: CoPRes
 Type: Package
 Title: Common, Proper and Residual Components (CoPRes) and Labelled Orthogonal Decomposition (LODE)
-Version: 0.5.0
+Version: 0.6.0
 Date: 2026-11-11
 Authors@R: person("Mohamed", "Hanafi", role = c("aut", "cre"), email = "mohamed.hanafi@oniris-nantes.fr")
 Description: Labelled orthogonal decomposition (LODE) of a space by several positive semi-definite

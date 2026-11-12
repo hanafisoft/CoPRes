@@ -420,10 +420,10 @@ graph_bilan <- function(X = NULL, theta = NULL, R = NULL, methodes = c("CPCA", "
                                               colour = serie), vjust = 1, size = (T$taille - 2) / 2.8, show.legend = FALSE) +
     ggplot2::geom_segment(data = d, ggplot2::aes(x = i - 0.38, xend = i + 0.38, y = borne, yend = borne, linetype = "borne"),
                           colour = T$encre) +
-    ggplot2::scale_fill_manual(values = c(lecture_directe = T$non_porteur, copres = T$commune), labels = lab,
+    ggplot2::scale_fill_manual(values = c(lecture_directe = T$non_porteur, copres = T$commune), labels = unname(lab[c("lecture_directe", "copres")]),
                                breaks = c("lecture_directe", "copres")) +
     ggplot2::scale_colour_manual(values = c(lecture_directe = T$encre, copres = "white")) +
-    ggplot2::scale_linetype_manual(values = c(borne = "solid"), labels = lab["borne"]) +
+    ggplot2::scale_linetype_manual(values = c(borne = "solid"), labels = unname(lab["borne"])) +
     ggplot2::scale_x_continuous(breaks = d$i, labels = d$methode) +
     ggplot2::labs(x = NULL, y = .t("bilan", langue)) + .theme_gg()
 }

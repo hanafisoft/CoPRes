@@ -47,6 +47,7 @@ print(cop, cp.discrimination(cop, P), cp.stabilite_groupes(cop, P), sep="\n")
 | Multibloc | `pretraiter`, `seuils_perm`, `cpca`, `acom`, `accps`, `copres`, `lecture_directe`, `fiche`, `equivalence`, `sensibilite` |
 | Multigroupe | `pretraiter_groupes`, `seuils_groupes`, `copres_groupes`, `cpc`, `lecture_groupes`, `discrimination`, `lire_notes` |
 | Stabilité | `stabilite_blocs`, `stabilite_groupes` |
+| Méthodes concurrentes | `jive` (selon r.jive 2.4), `ajive` (selon mvlearn 0.5), `rang_coude` |
 | Graphiques (expérimentaux) | `graph_saliences`, `graph_coherence`, `graph_fiche`, `graph_motif`, `graph_scores`, `graph_scores_parties`, `graph_loadings`, `graph_contributions`, `graph_stabilite`, `graph_sensibilite`, `graph_bilan` ; données : `donnees_*` ; langue `langue("fr")` / `langue("en")` ; thème `theme_copres()` |
 
 ## Tests
@@ -64,6 +65,6 @@ Voir `python/NEWS.md` et `R/NEWS.md`.
 
 ## Licence
 
-GPL-3.0 ou ultérieure. Auteur : Mohamed Hanafi (StatSC, Oniris-INRAE, Nantes).
+GPL-3.0 ou ultérieure. Les fonctions `jive` et `ajive` sont des réécritures des algorithmes de r.jive (O'Connell et Lock, GPL-3) et de mvlearn (Carmichael et al., licence MIT), vérifiées contre ces paquets. Auteur : Mohamed Hanafi (StatSC, Oniris-INRAE, Nantes).
 
 Contact : mohamed.hanafi@oniris-nantes.fr, mohammed44hanafi@gmail.com
