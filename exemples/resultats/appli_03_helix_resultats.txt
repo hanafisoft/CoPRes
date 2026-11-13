@@ -1,0 +1,86 @@
+
+HELIX, expositions chimiques : 1301 enfants, 45 variables ; effectifs 1 202, 2 198, 3 224, 4 207, 5 272, 6 198 ; seuils 1.06 à 1.33
+  CoPRes multigroupe (6 groupes) : motif ({1,2,3,4,5,6}, 4), ({1,2,3,5,6}, 1), ({1,3,4,5,6}, 1), ({2,3,4,5,6}, 1), ({1,2,5}, 1), ({1,3,5}, 1), ({3,4,5}, 1), ({2,3}, 2), ({2,6}, 1), ({3,6}, 1), ({1}, 2), ({2}, 3), ({4}, 3), ({5}, 2), (résiduelle, 21)
+  bilan 69.2743, borne de Ky Fan 79.9076, écart relatif 13.3 %
+  dimensions par type : commune 4, partagée 10, propre 10, résiduelle 21
+  ACP : cohérente False ; mélangées 30, diluées 28
+  CPC : cohérente False ; mélangées 19, diluées 21
+    composante 32 de la CPC, lue résiduelle : 49 % de la partie propre à {5}, 43 % résiduelle
+  commune    {1,2,3,4,5,6}  dim 4 : MEPA (Phenols) 6 %, PFOS (Per- and polyfluoroalkyl substances (PFAS)) 5 %, PRPA (Phenols) 5 %, ETPA (Phenols) 5 %, PFNA (Per- and polyfluoroalkyl substances (PFAS)) 5 % ; part de variance due à la cohorte 0.26, 0.30, 0.12, 0.36
+  partagée   {1,2,3,5,6}    dim 1 : DEP (Organophosphate pesticides) 17 %, DETP (Organophosphate pesticides) 16 %, DMTP (Organophosphate pesticides) 16 %, DMP (Organophosphate pesticides) 14 %, MBZP (Phthalates) 4 % ; part de variance due à la cohorte 0.03
+  partagée   {1,3,4,5,6}    dim 1 : As (Metals) 22 %, Hg (Metals) 17 %, DETP (Organophosphate pesticides) 11 %, DEP (Organophosphate pesticides) 10 %, PFOA (Per- and polyfluoroalkyl substances (PFAS)) 8 % ; part de variance due à la cohorte 0.26
+  partagée   {2,3,4,5,6}    dim 1 : OXOMINP (Phthalates) 29 %, OHMiNP (Phthalates) 29 %, Co (Metals) 9 %, Mo (Metals) 4 %, Hg (Metals) 4 % ; part de variance due à la cohorte 0.09
+  partagée   {1,2,5}        dim 1 : Cu (Metals) 14 %, MIBP (Phthalates) 13 %, MEP (Phthalates) 12 %, Pb (Metals) 12 %, BPA (Phenols) 10 % ; part de variance due à la cohorte 0.17
+  partagée   {1,3,5}        dim 1 : DDT (Organochlorines) 73 %, OXBE (Phenols) 4 %, DMTP (Organophosphate pesticides) 4 %, BPA (Phenols) 3 %, Pb (Metals) 3 % ; part de variance due à la cohorte 0.16
+  partagée   {3,4,5}        dim 1 : Co (Metals) 36 %, OHMiNP (Phthalates) 10 %, OXOMINP (Phthalates) 9 %, Cd (Metals) 7 %, DMP (Organophosphate pesticides) 7 % ; part de variance due à la cohorte 0.06
+  partagée   {2,3}          dim 2 : Cd (Metals) 27 %, TRCS (Phenols) 27 %, MEP (Phthalates) 8 %, Mo (Metals) 5 %, MEPA (Phenols) 4 % ; part de variance due à la cohorte 0.05, 0.18
+  partagée   {2,6}          dim 1 : MNBP (Phthalates) 16 %, MBZP (Phthalates) 11 %, Cu (Metals) 9 %, Hg (Metals) 9 %, BPA (Phenols) 7 % ; part de variance due à la cohorte 0.11
+  partagée   {3,6}          dim 1 : PBDE47 (Polybrominated diphenyl ethers (PBDE)) 71 %, PBDE153 (Polybrominated diphenyl ethers (PBDE)) 7 %, PFHXS (Per- and polyfluoroalkyl substances (PFAS)) 3 %, DMP (Organophosphate pesticides) 2 %, Mn (Metals) 2 % ; part de variance due à la cohorte 0.07
+  propre     {1}            dim 2 : OXBE (Phenols) 13 %, TRCS (Phenols) 12 %, MEP (Phthalates) 8 %, DEP (Organophosphate pesticides) 6 %, PCB170 (Organochlorines) 6 % ; part de variance due à la cohorte 0.20, 0.02
+  propre     {2}            dim 3 : Mo (Metals) 24 %, Cs (Metals) 11 %, Cu (Metals) 10 %, Cd (Metals) 7 %, MBZP (Phthalates) 5 % ; part de variance due à la cohorte 0.09, 0.14, 0.20
+  propre     {4}            dim 3 : PFUNDA (Per- and polyfluoroalkyl substances (PFAS)) 19 %, PCB118 (Organochlorines) 19 %, PFHXS (Per- and polyfluoroalkyl substances (PFAS)) 8 %, As (Metals) 5 %, Pb (Metals) 5 % ; part de variance due à la cohorte 0.10, 0.15, 0.29
+  propre     {5}            dim 2 : HCB (Organochlorines) 42 %, DMTP (Organophosphate pesticides) 17 %, MIBP (Phthalates) 7 %, MEP (Phthalates) 6 %, DETP (Organophosphate pesticides) 4 % ; part de variance due à la cohorte 0.14, 0.36
+  stabilité (strict / étiquette / type) :
+    Stabilité sur 100 échantillons bootstrap ; motif complet retrouvé : 0 %
+    partie (dimension) : strict / étiquette / type
+      {1,2,3,4,5,6} (4) : 66 / 70 / 70 %
+      {1,2,3,5,6} (1) : 8 / 8 / 89 %
+      {1,3,4,5,6} (1) : 14 / 14 / 72 %
+      {2,3,4,5,6} (1) : 1 / 1 / 74 %
+      {1,2,5} (1) : 4 / 4 / 23 %
+      {3,4,5} (1) : 2 / 2 / 32 %
+      {2,6} (1) : 0 / 0 / 8 %
+      {3,6} (1) : 30 / 38 / 70 %
+      {1,3,5} (1) : 8 / 8 / 40 %
+      {2,3} (2) : 0 / 0 / 4 %
+      {2} (3) : 0 / 0 / 2 %
+      {4} (3) : 0 / 0 / 3 %
+      résiduelle (21) : 0 / 0 / 0 %
+      {1} (2) : 0 / 0 / 7 %
+      {5} (2) : 0 / 2 / 15 %
+
+HELIX, métabolome urinaire : 1192 enfants, 44 variables ; effectifs 1 197, 2 153, 3 212, 4 205, 5 227, 6 198 ; seuils 1.01 à 1.35
+  CoPRes multigroupe (6 groupes) : motif ({1,2,3,4,5,6}, 4), ({1,2,3,4,5}, 1), ({1,3,4,5,6}, 1), ({2,4,5,6}, 1), ({3,5,6}, 1), ({1,3}, 1), ({1,6}, 1), ({2,4}, 1), ({2,5}, 1), ({3,6}, 1), ({4,5}, 1), ({1}, 3), ({2}, 2), ({3}, 3), ({4}, 2), ({5}, 1), ({6}, 2), (résiduelle, 17)
+  bilan 62.5491, borne de Ky Fan 75.1484, écart relatif 16.8 %
+  dimensions par type : commune 4, propre 13, partagée 10, résiduelle 17
+  ACP : cohérente False ; mélangées 33, diluées 21
+  CPC : cohérente False ; mélangées 26, diluées 24
+    composante 21 de la CPC, lue résiduelle : 34 % de la partie propre à {6}, 33 % résiduelle
+  commune    {1,2,3,4,5,6}  dim 4 : Succinate 5 %, Creatine 5 %, Urea 5 %, Alanine 5 %, Acetate 4 % ; part de variance due à la cohorte 0.03, 0.08, 0.04, 0.02
+  partagée   {1,2,3,4,5}    dim 1 : 3-Indoxylsulfate 21 %, p-cresol sulfate 17 %, 4-deoxythreonic acid 6 %, N1-methyl-nicotinamide 6 %, Trimethylamine oxide 5 % ; part de variance due à la cohorte 0.04
+  partagée   {1,3,4,5,6}    dim 1 : N-methylnicotinic acid 11 %, Citrate 9 %, p-cresol sulfate 8 %, 2-hydroxyisobutyrate 6 %, 3-hydroxybutyrate/3-aminoisobutyrate 5 % ; part de variance due à la cohorte 0.03
+  partagée   {2,4,5,6}      dim 1 : N1-methyl-nicotinamide 23 %, N-methyl-2-pyridone-5-carboxamide 19 %, 3-hydroxyisovalerate 16 %, Acetone 5 %, 3-hydroxyisobutyrate 5 % ; part de variance due à la cohorte 0.03
+  partagée   {3,5,6}        dim 1 : Sucrose 15 %, Carnitine 14 %, Glucose 11 %, Scyllo-inositol 6 %, Creatinine 6 % ; part de variance due à la cohorte 0.03
+  partagée   {1,3}          dim 1 : 3-aminoisobutyrate 15 %, Trimethylamine oxide 12 %, Dimethylamine 12 %, N-acetyl neuraminic acid 10 %, Tyrosine 8 % ; part de variance due à la cohorte 0.03
+  partagée   {1,6}          dim 1 : Taurine 36 %, Carnitine 22 %, Dimethylamine 11 %, Trimethylamine oxide 4 %, 4-deoxythreonic acid 3 % ; part de variance due à la cohorte 0.02
+  partagée   {2,4}          dim 1 : 5-oxoproline 74 %, Glutamine 4 %, Trimethylamine 4 %, Citrate 4 %, Taurine 3 % ; part de variance due à la cohorte 0.02
+  partagée   {2,5}          dim 1 : Glutamine 59 %, p-hydroxyphenylacetate 13 %, 5-oxoproline 6 %, Succinate 3 %, Trimethylamine oxide 2 % ; part de variance due à la cohorte 0.01
+  partagée   {3,6}          dim 1 : N-methylpicolinic acid 70 %, Trimethylamine oxide 8 %, Sucrose 2 %, Scyllo-inositol 2 %, p-cresol sulfate 2 % ; part de variance due à la cohorte 0.01
+  partagée   {4,5}          dim 1 : Isoleucine 83 %, Citrate 2 %, Pantothenic acid 2 %, Hippurate 2 %, Acetone 1 % ; part de variance due à la cohorte 0.01
+  propre     {1}            dim 3 : Dimethylamine 12 %, Formate 10 %, Taurine 10 %, 3-aminoisobutyrate 7 %, Lactate 5 % ; part de variance due à la cohorte 0.02, 0.00, 0.02
+  propre     {2}            dim 2 : Trimethylamine 35 %, Valine 13 %, Formate 6 %, Dimethylamine 4 %, Glucose 3 % ; part de variance due à la cohorte 0.01, 0.02
+  propre     {3}            dim 3 : 3-hydroxyisobutyrate 16 %, Glucose 15 %, Proline betaine 14 %, Sucrose 7 %, p-hydroxyphenylacetate 6 % ; part de variance due à la cohorte 0.05, 0.02, 0.04
+  propre     {4}            dim 2 : Scyllo-inositol 23 %, 3-hydroxyisovalerate 11 %, N1-methyl-nicotinamide 7 %, Pantothenic acid 7 %, Citrate 5 % ; part de variance due à la cohorte 0.03, 0.08
+  propre     {5}            dim 1 : Acetate 38 %, Formate 21 %, 4-deoxyerythronic acid 9 %, Hippurate 3 %, Succinate 3 % ; part de variance due à la cohorte 0.02
+  propre     {6}            dim 2 : 3-hydroxybutyrate/3-aminoisobutyrate 25 %, N-methylnicotinic acid 16 %, Sucrose 8 %, 4-deoxyerythronic acid 7 %, Proline betaine 6 % ; part de variance due à la cohorte 0.03, 0.11
+  stabilité (strict / étiquette / type) :
+    Stabilité sur 100 échantillons bootstrap ; motif complet retrouvé : 0 %
+    partie (dimension) : strict / étiquette / type
+      {1,2,3,4,5,6} (4) : 3 / 3 / 3 %
+      {2} (2) : 21 / 46 / 49 %
+      {1,3,4,5,6} (1) : 0 / 0 / 62 %
+      {1,2,3,4,5} (1) : 0 / 0 / 38 %
+      {3,5,6} (1) : 1 / 2 / 43 %
+      {2,4,5,6} (1) : 2 / 2 / 46 %
+      {1,6} (1) : 2 / 2 / 22 %
+      {2,5} (1) : 3 / 4 / 43 %
+      {3,6} (1) : 8 / 11 / 26 %
+      {2,4} (1) : 18 / 19 / 37 %
+      {1,3} (1) : 0 / 0 / 1 %
+      {4,5} (1) : 15 / 26 / 64 %
+      {1} (3) : 0 / 0 / 2 %
+      {6} (2) : 0 / 1 / 8 %
+      {4} (2) : 0 / 0 / 3 %
+      {3} (3) : 0 / 0 / 2 %
+      {5} (1) : 0 / 10 / 28 %
+      résiduelle (17) : 0 / 0 / 0 %

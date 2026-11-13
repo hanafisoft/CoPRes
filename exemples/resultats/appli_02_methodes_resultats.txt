@@ -1,0 +1,24 @@
+Simulation à deux blocs, intensité de t2 dans le bloc 2 : 0.5
+  phi   équivalentes à CoPRes (CPCA ACOM ACCPS)   retrouvées, composantes   retrouvées, CoPRes
+    0°    68 %    62 %    98 %        0.76  0.53  0.92        0.99  0.85  0.99
+   15°    46 %    36 %    86 %        0.57  0.43  0.77        0.99  0.74  0.99
+   30°    12 %    30 %    52 %        0.41  0.29  0.47        0.99  0.55  0.99
+   45°     6 %    32 %    18 %        0.27  0.25  0.53        0.99  0.51  0.99
+Simulation à deux blocs, intensité de t2 dans le bloc 2 : 0.35
+  phi   équivalentes à CoPRes (CPCA ACOM ACCPS)   retrouvées, composantes   retrouvées, CoPRes
+    0°    78 %    72 %    98 %        0.71  0.63  0.84        0.88  0.79  0.87
+   15°    70 %    66 %    94 %        0.63  0.59  0.71        0.88  0.77  0.87
+   30°    38 %    52 %    60 %        0.41  0.43  0.55        0.88  0.73  0.88
+   45°    20 %    32 %    46 %        0.32  0.28  0.61        0.89  0.65  0.88
+
+Plans de LODE : lecture CoPRes de l'ACOM et de l'ACCPS équivalente à celle de la CPCA
+  plan 1, R = 4 : ACOM 42 %, ACCPS 90 %
+  plan 1, R = 5 : ACOM 70 %, ACCPS 100 %
+  plan 1, R = 6 : ACOM 56 %, ACCPS 76 %
+  plan 3, R = 6 : ACOM 4 %, ACCPS 90 %
+  plan 3, R = 7 : ACOM 10 %, ACCPS 98 %
+  plan 3, R = 8 : ACOM 38 %, ACCPS 100 %
+  plan 4, R = 5 : ACOM 2 %, ACCPS 66 %
+  plan 4, R = 6 : ACOM 2 %, ACCPS 80 %
+  plan 4, R = 7 : ACOM 0 %, ACCPS 82 %
+

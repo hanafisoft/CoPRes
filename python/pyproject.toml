@@ -4,9 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "CoPRes"
-version = "0.6.0"
+version = "0.7.0"
 description = "Composantes communes, propres et résiduelles (CoPRes) et décomposition orthogonale étiquetée (LODE) de matrices semi-définies positives"
 authors = [{name = "Mohamed Hanafi", email = "mohamed.hanafi@oniris-nantes.fr"}]
+maintainers = [{name = "Mohamed Hanafi", email = "mohamed.hanafi@oniris-nantes.fr"}, {name = "Mohamed Hanafi", email = "mohammed44hanafi@gmail.com"}]
 license = {text = "GPL-3.0-or-later"}
 requires-python = ">=3.9"
 dependencies = ["numpy>=1.21"]

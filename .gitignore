@@ -6,3 +6,9 @@ __pycache__/
 .RData
 .Rproj.user/
 *.tar.gz
+
+# exemples : données HELIX (non redistribuées) et sorties locales
+exemples/donnees/helix_*.csv
+exemples/python/*.png
+exemples/python/appli_01_plan_commun.csv
+exemples/python/lode_08_jive_detail.csv

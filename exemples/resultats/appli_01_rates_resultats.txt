@@ -1,0 +1,43 @@
+Seuils calculés : M 5.3 %, C 7.4 %
+
+Tableau 1 : saliences de la CPCA (M ; C)
+   u1 0.411 ; 0.155   u2 0.125 ; 0.293   u3 0.055 ; 0.213
+   lecture, seuil fixe 5 %   : ['{M,C}', '{M,C}', '{M,C}']
+   lecture, seuil fixe 10 %  : ['{M,C}', '{M,C}', '{C}']
+   lecture, seuil calculé    : ['{M,C}', '{M,C}', '{M,C}']
+
+Partie commune = tout l'espace (seuil calculé) : salience minimale M 3.6 %, C 4.1 %
+Plan (u1, u2) au seuil de 10 % : salience minimale M 8.0 %, C 8.4 %
+
+Tableau des 1 000 jeux : lecture, fréquence, jeux cohérents, Phi médian, Phi maximal
+   ({M,C}, 3)                                     67.4 %     0  --     --
+   ({M,C}, 2), ({M}, 1)                           15.3 %    98  0.889  0.905
+   ({M,C}, 2), ({C}, 1)                           12.1 %    13  0.875  0.878
+   ({M,C}, 1), ({M}, 1), ({C}, 1)                  5.2 %    52  0.897  0.914
+   total cohérents : 163
+Composantes tirées (3 000) : MC 87.4 %, un bloc 12.6 %, aucun 0.0 %
+
+Figure, panneau b (({M,C}, 2), ({M}, 1)) : plan commun le plus loin des seuils, salience minimale M 8.0 %, C 24.7 %
+
+CoPRes (CPCA, R = 3) : motif ({1,2}, 1), ({1}, 1), ({2}, 1)
+bilan 0.914149, borne de Ky Fan 0.921671, écart relatif 0.816 %
+Bilan CoPRes : Phi = 0.914 ; motif ({M,C}, 1), ({M}, 1), ({C}, 1) ; marge inf
+     partie {M}      bloc M : 0.403
+     partie {M,C}    bloc M : 0.043
+     partie {M,C}    bloc C : 0.289
+     partie {C}      bloc C : 0.179
+     par bloc : M 0.446, C 0.468
+Bilan ({M,C}, 2), ({M}, 1), après rotation : Phi = 0.905 ; motif ({M,C}, 2), ({M}, 1) ; marge 0.0009
+     partie {M,C}    bloc M : 0.048
+     partie {M,C}    bloc C : 0.473
+     partie {M}      bloc M : 0.384
+     par bloc : M 0.432, C 0.473
+CPCA (incohérente) : Phi = 0.872 ; borne de Ky Fan 0.922
+
+Sensibilité (R = 3) : x0.75: ({1,2}, 2), ({1}, 1) ; x0.9: ({1,2}, 1), ({1}, 1), ({2}, 1) ; x1.0: ({1,2}, 1), ({1}, 1), ({2}, 1) ; x1.25: ({1,2}, 1), ({1}, 1), ({2}, 1) ; x1.5: ({1,2}, 1), ({1}, 1), ({2}, 1) ; x2.0: ({1}, 1), ({2}, 2)
+
+Fiche de la CPCA (R = 3)
+u1 : {M} 66 %, {M,C} 32 %, {C} 2 % ; mu* = 0.34, r = 0.00 ; mélangée
+u2 : {M,C} 64 %, {M} 24 %, {C} 12 % ; mu* = 0.36, r = 0.00 ; mélangée
+u3 : {C} 86 %, {M} 10 %, {M,C} 4 % ; mu* = 0.14, r = 0.00 ; mélangée
+Lecture directe et composante CoPRes la plus proche : saliences de u3 : [0.055 0.213]

@@ -1,9 +1,10 @@
 Package: CoPRes
 Type: Package
 Title: Common, Proper and Residual Components (CoPRes) and Labelled Orthogonal Decomposition (LODE)
-Version: 0.6.0
-Date: 2026-11-11
+Version: 0.7.0
+Date: 2026-11-13
 Authors@R: person("Mohamed", "Hanafi", role = c("aut", "cre"), email = "mohamed.hanafi@oniris-nantes.fr")
+Contact: Mohamed Hanafi <mohamed.hanafi@oniris-nantes.fr>, <mohammed44hanafi@gmail.com>
 Description: Labelled orthogonal decomposition (LODE) of a space by several positive semi-definite
     matrices: common, proper and residual subspaces, Ky Fan bound, ideal labelling, and the LODE
     algorithm (target rotation TARO and labelling-basis construction B2BL); CoPRes factorisation of

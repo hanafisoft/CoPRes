@@ -1,0 +1,21 @@
+jeu 40
+jeu 80
+jeu 120
+jeu 160
+jeu 200
+jeu 240
+jeu 280
+jeu 320
+jeu 360
+jeu 400
+jeu 440
+jeu 480
+jeu 520
+jeu 560
+jeu 600
+jeu 640
+  n  concentrée  écart méd. (max)       meilleur dès 5 / 20 départs   temps 20 départs (s)
+  3      99 %    0.00 (0.35) %          100 / 100 %                 0.03
+  5     100 %    0.02 (1.01) %          100 / 100 %                 0.11
+  8      85 %    0.57 (2.36) %           94 /  99 %                 0.39
+ 12      71 %    3.41 (7.94) %           88 /  98 %                 1.01

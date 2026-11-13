@@ -190,13 +190,21 @@ print.jive_copres <- function(x, ...) {
   out
 }
 
+# Comme numpy.argmax : une valeur NaN compte comme le maximum (première rencontrée) ; sinon,
+# premier indice du maximum.
+.argmax_numpy <- function(x) {
+  nan <- which(is.nan(x))
+  if (length(nan)) return(nan[1])
+  which.max(x)
+}
+
 # Rang de signal par le coude du profil de vraisemblance (Zhu et Ghodsi 2006), comme mvlearn.
 rang_coude <- function(X, n_coudes = 2) {
   X <- as.matrix(X)
   k <- ceiling(log2(min(dim(X))))
   D <- svd(X, nu = 0, nv = 0)$d[seq_len(k)]
   idx <- 0
-  for (i in seq_len(n_coudes)) idx <- idx + which.max(.log_vraisemblance(D[(idx + 1):length(D)]))
+  for (i in seq_len(n_coudes)) idx <- idx + .argmax_numpy(.log_vraisemblance(D[(idx + 1):length(D)]))
   as.integer(idx)
 }
 
